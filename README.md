@@ -11,12 +11,12 @@ Also generate html view of the whole report for better human viewing. ( This sol
 
 # Limitations
 
-I have removed the "business logic" functions of the app for privacy reasons. The case of the app is very specific into a one type of format and depends on the excel file not being altered.
+I have removed the "business logic" functions of the app for privacy reasons. The case of the app is very specific into a one type of format and depends on the excel file not being altered (format wise).
 This pseudo code works on a small group of people that uses the specific app, it probably can't handle larger people accessing it at the same time ( I haven't tested it but if you want to serve larger group of people see *celery ).
-This probably can be done through some excel functions and macros, but for computers with limited capabilities, the excel file would load so slow because of having too many functions at the same time. I haven't used chunks for saving excel files larger than 2.5mb, but the logic stays the same within my views.py so it is usable even with very large excel files and python computes it at a relatively fast pace compared to excel/ods.
+This probably can be done through some excel functions and macros, but for computers with limited capabilities, the excel file would load so slow because of having too many functions running at the same time. I haven't used chunks for saving excel files larger than 2.5mb, but the logic stays the same within my views.py so it is usable even with very large excel files and python computes it at a relatively fast pace compared to excel/ods.
 I haven't touched the models.py as I designed all the logic to be present only in the views so that I don't mess with the sql and database a lot ( avoiding database issued )
 
-If you want to learn or need a similar type of project, please message me thorugh atienza.new@gmail.com
+If you want to learn or need a similar type of project, please message me through atienza.new@gmail.com
 
 p.s. no i don't do it for free
 p.s. no, i don't charge high, just email me
