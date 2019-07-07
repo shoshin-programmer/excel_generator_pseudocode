@@ -23,3 +23,5 @@ p.s. no, i don't charge high, just email me
 
 # Preview
 ![!alt text](file_input.png)
+
+# for obvious reasons, I can't show the plots and graphs that is generated
