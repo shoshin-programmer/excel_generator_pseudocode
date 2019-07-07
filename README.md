@@ -20,3 +20,6 @@ If you want to learn or need a similar type of project, please message me thorug
 
 p.s. no i don't do it for free
 p.s. no, i don't charge high, just email me
+
+# Preview
+![!alt text](file_input.png)
