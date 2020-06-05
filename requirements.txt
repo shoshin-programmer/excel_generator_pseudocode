@@ -1,7 +1,7 @@
 -i https://pypi.org/simple
 cycler==0.10.0
 django-excel==0.0.10
-django==2.2.3
+django==2.2.13
 et-xmlfile==1.0.1
 jdcal==1.4.1
 kiwisolver==1.1.0
