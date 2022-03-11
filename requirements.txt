@@ -10,7 +10,7 @@ matplotlib==3.1.1
 numpy==1.16.4
 openpyxl==2.6.2
 pandas==0.24.2
-pillow==6.1.0
+pillow==9.0.1
 pyexcel-io==0.5.18
 pyexcel-webio==0.1.4
 pyexcel==0.5.14
